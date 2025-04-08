@@ -16,4 +16,44 @@
   .section-title {
     @apply text-3xl md:text-4xl font-bold mb-6;
   }
+  
+  .smart-scroll {
+    scroll-behavior: smooth;
+  }
+  
+  .card {
+    @apply bg-nyx-dark/50 p-6 rounded-lg;
+  }
+  
+  .card-title {
+    @apply text-xl font-semibold mb-4;
+  }
+  
+  .card-description {
+    @apply text-gray-300 mb-4;
+  }
+  
+  .timeline-dot {
+    @apply absolute left-1/2 transform -translate-x-1/2 -translate-y-1/2 w-4 h-4 rounded-full;
+  }
+  
+  .timeline-content {
+    @apply ml-auto w-5/12 pl-8;
+  }
+  
+  .timeline-date {
+    @apply text-2xl font-bold mb-2;
+  }
+  
+  .timeline-card {
+    @apply bg-nyx-dark/50 p-6 rounded-lg;
+  }
+  
+  .timeline-title {
+    @apply text-xl font-semibold mb-4;
+  }
+  
+  .timeline-subtitle {
+    @apply text-gray-400 mb-4;
+  }
 } 
