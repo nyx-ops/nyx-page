@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply bg-nyx-dark text-white;
+  }
+}
+
+@layer components {
+  .btn-primary {
+    @apply bg-nyx-purple hover:bg-nyx-pink text-white font-semibold py-2 px-4 rounded-lg transition-colors duration-200;
+  }
+  
+  .section-title {
+    @apply text-3xl md:text-4xl font-bold mb-6;
+  }
+} 
